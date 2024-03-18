@@ -27,11 +27,10 @@ class Student {
     }
     public void PrintInfo(String name, int age, double SeatNumber){
         System.out.println(name + age + SeatNumber);
-   
     }
 }
 
-public class Polymorphism{
+public class TestPolymorphism{
     public static void main (String args[]){
         Student s1 = new Student();                      //Created an object
         s1.name = "Aliza Khan";
