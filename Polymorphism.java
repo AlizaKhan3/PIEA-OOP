@@ -1,6 +1,7 @@
 // Polymorphism in Java poly-->many & morphism-->different forms
 // Polymorphism basically means that; in a same class having many different functions having diferent purposes but of same name is called Polymorphism or this kind of implementation 
 // refers to "Over Loading".
+//Types: 1) Compile type Polymorphism     2) Run time Polymorphism
 
 // eg: code of Polymorphism
 class Student {
