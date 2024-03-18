@@ -30,7 +30,7 @@ class Student {
     }
 }
 
-public class Main{
+public class Polymorphism{
     public static void main (String args[]){
         Student s1 = new Student();                      //Created an object
         s1.name = "Aliza Khan";
