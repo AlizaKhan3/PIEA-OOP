@@ -22,7 +22,7 @@ class TestInheritance{
 
 // --------------------------------------------------------------
 
-//Multilevel Inheritance Example (contains more than one class)
+//Multilevel Inheritance Example (contains more classes --> Chain of Inheritance)
 
 class Teacher{                        //Base Class/Super Class
     public void speaking (){
@@ -51,4 +51,40 @@ public class TestInheritance{
     }
 }
 
+// --------------------------------------------------------------
 
+//Hierarchical Inheritance Example (two or more classes inherits from the only Super class)
+//Only Base/Super Class
+class Stationary {
+    public void AllThings() {
+        System.out.println("Stationary rakhlo");
+    }
+}
+
+class InkPen extends Stationary{
+     public void Pen() {
+        System.out.println("Pen: Use to write.");
+    }
+}
+
+class Remover extends Stationary {
+    public void Removes() {
+        System.out.println("Remover: Use to re-write.");
+    }
+}
+
+class Pencil extends Stationary {
+    public void RoughWork() {
+        System.out.println("Pencil: Use to do rough work");
+    }
+}
+
+public class TestInheritance{
+    public static void main (String args[]){
+        Pencil p = new Pencil();
+        p.AllThings();
+        // p.Pen();        Gives an Error 
+        // p.Removes();    Gives an Error 
+        p.RoughWork();
+    }
+}
