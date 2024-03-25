@@ -1,0 +1,13 @@
+A static method in Java is a method that belongs to the class rather than to instances of the class (objects). This means you can call a static method directly using the class name, without creating an instance of the class. 
+  
+ Here are some key characteristics of static methods: 
+  
+ No Instance Required: You can call a static method directly using the class name, without needing to create an instance of the class. 
+  
+ Accessing Static Members: Static methods can only directly access other static members of the class, including other static methods, static fields, and static nested classes. 
+  
+ Cannot Access Instance Members: Static methods cannot access instance variables or instance methods directly. They operate at the class level, not the instance level. 
+  
+ Common Utility Methods: Static methods are commonly used for utility methods that perform a specific task independent of any particular instance of the class. For example, methods like Math.abs(), Arrays.sort(), and Collections.sort() are static methods. 
+  
+ Static Context: Static methods execute in the context of the class rather than in the context of a particular object. This means they cannot use this keyword to refer to the current object.
